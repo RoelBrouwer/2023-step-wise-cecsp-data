@@ -1,0 +1,3 @@
+
+Total measured time (s): 3472.5413220720366
+                    

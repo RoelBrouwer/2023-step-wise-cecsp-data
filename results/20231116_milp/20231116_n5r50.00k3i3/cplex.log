@@ -1,0 +1,56 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 2 times.
+MIP Presolve eliminated 623 rows and 206 columns.
+MIP Presolve modified 4217 coefficients.
+Aggregator did 91 substitutions.
+Reduced MIP has 1152 rows, 233 columns, and 6799 nonzeros.
+Reduced MIP has 180 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (11.85 ticks)
+Probing fixed 3 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (3.68 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 5 rows and 3 columns.
+Reduced MIP has 1147 rows, 230 columns, and 6737 nonzeros.
+Reduced MIP has 177 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.30 ticks)
+Probing time = 0.00 sec. (3.20 ticks)
+Clique table members: 1180.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (2.96 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       19.4500    41                     19.4500       62         
+      0     0       19.4500    12                     Cuts: 3       75         
+      0     0       19.4500    20                    Cuts: 81      117         
+      0     0       19.4500    11                    Cuts: 10      144         
+      0     0       19.4500    17                    Cuts: 50      197         
+Detecting symmetries...
+      0     2       19.4500     8                     19.4500      197         
+Elapsed time = 0.18 sec. (201.51 ticks, tree = 0.01 MB, solutions = 0)
+*    50    25      integral     0       19.6400       19.4500     2158    0.97%
+    154    88       19.6000    20       19.6400       19.4500     3853    0.97%
+*   212    72      integral     0       19.5900       19.4500     5968    0.71%
+    259    48        cutoff             19.5900       19.4600     7601    0.66%
+*   320+   14                           19.5300       19.5200             0.05%
+*   328     1      integral     0       19.5200       19.5200     9787    0.00%
+
+GUB cover cuts applied:  9
+Cover cuts applied:  10
+Implied bound cuts applied:  49
+Mixed integer rounding cuts applied:  10
+Zero-half cuts applied:  7
+
+Root node processing (before b&c):
+  Real time             =    0.18 sec. (201.53 ticks)
+Sequential b&c:
+  Real time             =    0.42 sec. (620.17 ticks)
+                          ------------
+Total (root+branch&cut) =    0.60 sec. (821.70 ticks)
